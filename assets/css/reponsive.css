@@ -1,0 +1,234 @@
+@media (max-width: 1023px){
+    .like-body > button{
+        width: 120px;
+        height: 50px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+        #header >.info{
+            margin-right: 20px;
+        }
+        .tour-list >a {
+            display: block;
+            width: 50%;
+            padding: 0 5px;
+            flex-wrap: wrap;
+        }
+
+        .like-heading{
+            font-size: 24px;
+            font-weight: 550;
+        }
+
+        .like-number{
+            font-size: 15px;
+            font-weight: 450;
+        }
+        .lux-body .lux-heading{
+            color: rgb(88, 86, 86);
+            font-size: 18px;
+        }
+        
+        .lux-body .lux-number{
+            color: black;
+            font-size: 14px;
+        }
+
+        .tour-img{
+            width: 100%;
+            height: 130px;
+            position: relative;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+
+        .like-number,
+        .like-heading{
+            margin-left: 10px;
+            cursor: pointer;
+        }
+
+        .h-support{
+            height: 420px;
+            padding-bottom: 5%;
+        }
+
+        #header{
+            overflow: hidden;
+        }
+
+        #header .search-btn{
+            display: none;
+        }
+
+        #header .mobile-menu-btn{
+            display: block;
+        }
+
+        #nav{
+            display: block;
+        }
+
+        #nav > li{
+            display: block;
+        }
+
+        #nav > li:first-child {
+            display: inline-block;
+        }
+
+        #nav .subnav{
+            position: inherit;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        #nav .subnav a{
+            color: #fff;
+        }
+        
+
+    }
+/* Mobile */
+@media (max-width: 739px){
+        #header >.info{
+            margin-right: 25px;
+        }
+        #header{
+            overflow: hidden;
+        }
+
+        #header .search-btn{
+            display: none;
+        }
+
+        #header .mobile-menu-btn{
+            display: block;
+        }
+
+        #nav{
+            display: block;
+        }
+
+        #nav > li{
+            display: block;
+        }
+
+        #nav > li:first-child {
+            display: inline-block;
+        }
+
+        #nav .subnav{
+            position: inherit;
+            background-color: #333;
+        }
+
+        #nav .subnav a{
+            color: #fff;
+            padding: 5px 18px;
+        }
+
+        #content .luxtravel{
+            display: inherit;
+        }
+
+        #content .content-boxlist{
+            flex-wrap: wrap;
+        }
+
+        #content .list-item{
+            width: 50%;
+        }
+
+        #header .mobile-menu-btn, #header .search-btn {
+            float: right;
+            padding: 0 16px;
+            height: 56px;
+        }
+        #header .mobile-menu-btn {
+            position: absolute;
+            top: -5px;
+            right: 0;
+        }
+
+        .phone-mail__text{
+            display: none;
+        }
+        .last-icon{
+            padding-left: 40px !important;
+        }
+
+        .phone-mail__icon{
+            display: inline-block;
+            font-size: 27px;
+            padding-left: 18px;
+            color: #fff;
+        }
+        .luxtravel .luxtravel-img img{
+            margin-top: 40px;
+        }
+
+        .luxtravel .travel-content{
+            padding: 0px;
+        }
+
+        #content .tour-section{
+            padding-bottom: 0px;
+        }
+
+        .tour-list{
+            flex-wrap: wrap;
+            margin-top: 0px;
+        }
+
+        .tour-list >a {
+            width: 50%;
+        }
+
+        .tour-item{
+            margin-bottom: 42%;
+        }
+        .lux-body{
+            width: 50%;
+        }
+        .lux-body .lux-heading{
+            color: rgb(88, 86, 86);
+            font-size: 18px;
+        }
+        .lux-body .lux-number{
+            color: black;
+            font-size: 14px;
+        }
+        .h-support{
+            height: 700px;
+        }
+    }
+@media (max-width: 450px){
+        #header >.info{
+            margin-right: 35px;
+        }
+        .phone-mail__icon{
+            display: inline-block;
+            font-size: 20px;
+            padding-left: 12px;
+        }
+        #content .list-item{
+            width: 100%;
+        }
+
+        .tour-list >a{
+            width: 100%;
+            height: 300px;
+        }
+
+        .lux-body{
+            width: 85%;
+            text-align: center;
+        }
+
+        .h-support{
+            height: 1320px;
+        }
+    }
